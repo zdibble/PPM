@@ -1,0 +1,1221 @@
+/******************************************************************************* 
+	Pole Position Marketing || Developed by David Ryder 08/05/2014
+							 
+	Change Notes by Zac 11/12/17
+	- With the addition of bootstrap v4 with this page, tag styles need to be either
+	 overwritten or more explicit if they're to be used.
+							   
+
+ *******************************************************************************/
+
+* {
+	box-sizing: border-box;
+}
+
+p:empty {
+	display: none;
+}
+
+#container p {
+	clear: both;
+	margin-top: 10px;
+}
+
+.broken_link {
+	display:none;
+}
+
+html, body {
+	width:100%;
+	height:100%;
+	margin:0px !important;
+	padding:0px !important;
+	font-family: Arial, "Helvetica", sans-serif !important;
+	color: #202020 !important;
+}
+
+a {
+	color:#A93124;
+}
+
+input {
+	background-color: white !important;
+	color: #cd3826 !important;
+	width: 100%;
+}
+
+ul {
+	-webkit-padding-start:0px !important
+}
+
+footer {
+	width:1000px;
+	margin:auto !important;
+}
+
+#branding {
+	width:243px;
+	height:154;
+	float: left;
+	margin-top:20px;
+}
+
+#former {
+	background: transparent !important;
+}
+
+#main-bdwmc-wrapper {
+	width:1000px;
+	margin:auto;
+	clear:both;
+	background-image: -webkit-gradient(linear, left bottom,	right top, color-stop(0.5, #A93124), color-stop(0.5, #CD3726));
+	background-image: -o-linear-gradient(right top, #A93124 50%, #CD3726 50%);
+	background-image: -moz-linear-gradient(right top, #A93124 50%, #CD3726 50%);
+	background-image: -webkit-linear-gradient(right top, #A93124 50%, #CD3726 50%);
+	background-image: -ms-linear-gradient(right top, #A93124 50%, #CD3726 50%);
+	background-image: linear-gradient(to right top, #A93124 50%, #CD3726 50%);
+}
+
+#main-bdwmc-wrapper a {
+	color: #A93124;
+}
+
+#gform_17 .gform_body input[type="tel"] {
+	border:1px #cccccc solid !important;
+	border-radius:1px !important; 
+}
+
+#main-bdwmc-content {
+	display: block;
+    position: relative;
+    background-image: url('https://www.polepositionmarketing.com/wp-content/uploads/2014/08/book.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: right 0px top; 
+}
+
+h1 {
+	color: white !important;
+	font-size: 1.9em !important;
+	margin-top:0.53em !important;
+	margin-bottom:0.17em !important;
+	font-weight: bold !important;
+	line-height: 1.2em
+}
+
+h2 {
+	background-image: url('https://www.polepositionmarketing.com/wp-content/uploads/2014/08/banner-best.png');
+    background-repeat: no-repeat;
+    color: white !important;
+    padding-top:30px !important;
+    padding-bottom:34px !important;
+    padding-left: 50px !important;
+    font-size: 2em;
+    /*width: 90%;*/
+}
+
+#sub-bdwmc {
+	overflow: auto;
+	height:auto;
+	width: 1000px;
+	clear:both;
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.5, #F5F5F5), color-stop(0.5, #ECECEC));
+	background-image: -o-linear-gradient(right bottom, #F5F5F5 50%, #ECECEC 50%);
+	background-image: -moz-linear-gradient(right bottom, #F5F5F5 50%, #ECECEC 50%);
+	background-image: -webkit-linear-gradient(right bottom, #F5F5F5 50%, #ECECEC 50%);
+	background-image: -ms-linear-gradient(right bottom, #F5F5F5 50%, #ECECEC 50%);
+	background-image: linear-gradient(to right bottom, #F5F5F5 50%, #ECECEC 50%);
+}
+
+#sub-bdwmc a {
+	color: #A93124;
+}
+
+#sub-bdwmc-content {
+	display: block;
+	padding: 20px !important;
+	width: 60% !important;
+	clear: both;
+	float: left !important;
+	position: relative !important;
+	margin-top: 55px !important;
+}
+
+.container-fluid .content-container .row header nav .collapse #nav-upper {
+	width:auto;
+	margin:auto;
+	text-align;
+	display:inline;
+	float: right;
+	margin-top: 50px;
+}
+
+.container-fluid .content-container .row header nav .collapse #nav-upper ul {
+	margin:0px !important;
+	padding:0px !important;
+	float:left;
+}
+
+.container-fluid .content-container .row header nav .collapse #nav-upper li {
+	background-color: /*#cd3826*/#ca1d13;
+	list-style: none;
+	float:left;
+	margin:5px;
+	width:21%;
+	text-align:center;
+	display:block;
+	height: 97px;
+	padding-left:10px;
+	padding-right:10px; 
+}
+
+.container-fluid .content-container .row header nav .collapse #nav-upper li:first-child {
+	margin-left:0px !important; 
+}
+
+.container-fluid .content-container .row header nav .collapse #nav-upper li:last-child {
+	margin-right:0px !important; 
+}
+
+.container-fluid .content-container .row header nav .collapse #nav-upper li:hover {
+	background-color: #a93224;
+}
+
+.container-fluid .content-container .row header nav .collapse #nav-upper li a {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 100%;
+	padding-top:30px;
+	padding-bottom:30px;
+	height: auto;
+	display: block;
+	font-size: 1em !important;
+}
+
+.checks {
+	margin-top: 20px; 
+	list-style: none;
+}
+
+.checks li {
+	background-image: url('https://www.polepositionmarketing.com/wp-content/uploads/2014/08/cursor.png');
+	background-repeat: no-repeat;
+	padding-left:60px;
+	line-height: 45px;
+	font-size: 1.3em
+}
+
+.shareaholic-share-buttons-container {
+	padding-top: 20px;
+}
+
+#nav {
+	width:100%;
+	margin:auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+#nav li {
+	background-color: /*#cd3826*/#ca1d13;
+	margin:6px;
+	min-width: 98px;
+	max-width: 160px;
+	text-align:center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 97px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#nav li:first-child {
+	margin-left:0px !important; 
+}
+
+#nav li:last-child {
+	margin-right:0px !important; 
+}
+
+#nav li:hover {
+	background-color: #a93224;
+}
+
+#nav li a {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 100%;
+	padding-top:30px;
+	padding-bottom:30px;
+	height: auto;
+	display: block;
+	font-size: 1em !important;
+	text-align: center;
+}
+
+.buy-buttons {
+	float:right;width:55%;
+}
+
+.buy-buttons a {
+	padding:0px !important;
+	margin:0px !important;
+	display:block;
+	float:left;
+}
+
+.buy-buttons img#special {
+	width:150px;
+	margin-right:10px;
+	margin-top:12px;
+	float:left;
+	display:block;
+}
+
+.buy-buttons img.normal {
+	margin-top:-12px;
+	width:182px;
+	float:left;
+	display:block;
+	float:left;
+	display:block;
+}
+
+.buy-buttons img.barnesNnoble {
+	margin-top:-33px !important;
+}
+
+.bdwmc-form-heading {
+	width: 27%;
+	float: right;
+	margin-right:20px;
+	margin-top:20px;
+	padding:20px;
+	font-size:1.1em;
+	text-align: center;
+	font-weight: bolder;
+	color: black;
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.5, #FEAA01), color-stop(0.5, #FECB5C));
+	background-image: -o-linear-gradient(right bottom, #FEAA01 50%, #FECB5C 50%);
+	background-image: -moz-linear-gradient(right bottom, #FEAA01 50%, #FECB5C 50%);
+	background-image: -webkit-linear-gradient(right bottom, #FEAA01 50%, #FECB5C 50%);
+	background-image: -ms-linear-gradient(right bottom, #FEAA01 50%, #FECB5C 50%);
+	background-image: linear-gradient(to right bottom, #FEAA01 50%, #FECB5C 50%);
+}
+
+#gform_wrapper_9 {
+  	width: 27%;
+  	float: right;
+  	margin-right:20px;
+  	padding: 10px;
+  	margin-top: 0;
+  	margin-bottom: 0;
+	background-image: -webkit-gradient(linear, left bottom, right top, color-stop(0.5, #A93124), color-stop(0.5, #CD3726));
+	background-image: -o-linear-gradient(right top, #A93124 50%, #CD3726 50%);
+	background-image: -moz-linear-gradient(right top, #A93124 50%, #CD3726 50%);
+	background-image: -webkit-linear-gradient(right top, #A93124 50%, #CD3726 50%);
+	background-image: -ms-linear-gradient(right top, #A93124 50%, #CD3726 50%);
+	background-image: linear-gradient(to right top, #A93124 50%, #CD3726 50%);
+}
+
+#about-stoney {
+	width: 30%;
+	float: right;
+	margin-right:20px;
+	margin-top:20px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#about-stoney p {
+	font-size: 13px;
+	text-align: left;
+}
+
+ul.inline-bullets {
+	list-style-type:disc !important;
+	margin-left:30px !important;
+}
+
+input#gform_submit_button_9:hover {
+    cursor: pointer;
+}
+
+ul#nav-upper li:last-child a {
+    padding-top: 14px;
+}
+
+input#input_9_6 {
+    width: 100%;
+}
+
+input#input_9_3 {
+    width: 100%;
+}
+
+img.aligncenter {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+.gform_body li {
+  list-style: none;
+}
+
+.privacy {
+  clear: both;
+  text-align: right;
+  padding-right: 96px;
+  font-size: 12px;
+}
+
+html {
+  overflow-x: auto;
+}
+
+#gform_9 .gform_footer {
+	display: flex;
+	item-align: center;
+	justify-content: space-around;
+}
+
+#gform_9 .gform_footer input[type="submit"].gform_button {
+  background-color: #feaa01 !important;
+  color: #fff !important;
+  font-weight: bold;
+  transition: all .333s ease;
+}
+
+#gform_9 .gform_footer input[type="submit"].gform_button:hover {
+  background-color: #de9603 !important;
+  border-radius: 3px;
+}
+
+.page-id-26002 #branding a:first-child {
+	display: none;
+}
+
+.page-id-26458 .gform_wrapper .top_label input.medium {
+    width: 98%;
+}
+
+.fixed-header {
+    position: fixed;
+	top: 0;
+	z-index: 1;
+	background: #fff;
+	padding: 10px;
+	transition: ease-in-out .2s;
+	height: 60px;
+}
+
+.fixed-header #branding {
+    width: 90px !important;
+	margin: 0 !important;
+	padding-left: 0;
+}
+
+.fixed-header .breadcrumbs-menu {
+    top: 0;
+    position: relative;
+    bottom: 0;
+    padding: 0;
+}
+
+.fixed-header .breadcrumbs-menu button {
+    font-size: 44px !important;
+    width: 60px !important;
+}
+
+.fixed-header ul#nav-upper {
+    top: 80px;
+	left: 0;
+}
+
+.fixed-header ul.active::before {
+	width: 0;
+	height: 0;
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-bottom: 18px solid /*#cd3826*/#ca1d13;
+	content: "";
+	float: right;
+	margin: -18px 70px 0 0;
+}
+
+.content-container {
+	width: 100%;	
+}
+
+
+.navbar-toggler-right {
+	top: 5rem !important;
+}
+
+.toggle-nav {
+	display: none;
+	width: 100%;
+}
+
+.toggle-nav li {
+	width: 100%;	
+	background-color: #ca1d13;
+	margin-bottom: 5px;
+}
+
+.toggle-nav li a {
+	color: white !important;	
+}
+
+/******************************************************
+			Resizing of Page
+******************************************************/
+
+@media screen and (min-width: 1280px) {
+	.privacy a {
+		position: relative;
+		bottom: 138px;
+	}
+	.page-id-26609 .pull-right {
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	nav a img {
+		
+	}
+}
+
+@media screen and (max-width: 980px) {
+	header {
+		width: 100% !important;
+	}
+	#nav-upper {
+		display: table;
+		margin: 0 auto;
+		position: relative;
+		width: 95%;
+	}
+	#nav-upper li {
+		width: 23%;
+	}
+	#nav-upper li a {
+		padding-bottom: none;
+		padding-top: 25px;
+	}
+	#nav-upper li:first-child {
+		margin-left: none !important;
+	}
+	ul#nav-upper li:last-child a {
+		padding-top: none;
+		padding-top: 25px !important;
+	}
+	#branding {
+		//margin-top: 0;
+		width: 100%;
+	}
+	#branding a {
+		display: block;
+		text-align: center;
+	}
+	#main-bdwmc-wrapper{
+		width: 100%;
+	}
+	#main-bdwmc-content .pull-right{
+		width: 55%;
+	}
+	.page-id-26002 #main-bdwmc-content {
+		background-position: 0 center;
+		background-size: cover;
+	}
+	#sub-bdwmc-content {
+		float: none !important;
+		width: 100% !important;
+	}
+	#sub-bdwmc-content p {
+		padding: 10px ;
+		width: 100%;
+	}
+	#sub-bdwmc{
+		width: 100% !important;
+	}
+	#sub-bdwmc-content div:nth-child(8) {
+		margin-left: 10px !important;
+		margin-top: 35px;
+		width: 100% !important;
+	}
+	.checks {
+		list-style: outside none none;
+		margin: 0 auto;
+		position: relative;
+		width: 48%;
+	}
+	.page-id-26609 .checks {
+		width: 100%;
+	}
+	#container > section#sub-bdwmc .pull-left {
+		margin: 0;
+	}
+	#main-bdwmc-content .pull-right a img {
+		width: 215px !important;
+		height: 65px !important;
+	}
+	#gform_wrapper_9, .bdwmc-form-heading {
+		width: 38%;
+	}
+	#about-stoney {
+		width: 54%;
+	}
+	.privacy {
+		bottom: 10px;
+		padding-right: 21px;
+	}
+	.gform_wrapper .gform_footer{
+		margin: 0 !important;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	footer {
+		width: 100%;
+	}
+	footer #nav li:first-child {
+		margin-left: 14px !important;
+	}
+	footer #nav li {
+		width: 18%;
+	}
+	footer #nav li:last-child a {
+		padding-top: 35px;
+	}
+	
+	/* BOOK STONEY TO SPEAK PAGE */
+	.page-id-26458 #main-bdwmc-content div div:nth-child(1) {
+		height: auto !important;
+	}
+	.page-id-26458 #main-bdwmc-content{
+		background-image: none;
+	}
+	.page-id-26458 #main-bdwmc-content p iframe {
+		display: table;
+		height: 575px;
+		margin: 0 auto;
+		padding: 10px;
+		position: relative;
+		width: 90%;
+	}
+	.page-id-26458 #main-bdwmc-content:first-child div {
+		margin: 0 auto !important;
+		width: 100% !important;
+	}
+	.page-id-26458 #main-bdwmc-content div:first-child div {
+		height: auto !important;
+	}
+	.page-id-26458 li#field_17_6 {
+		text-align: center;
+	}
+	.page-id-26458 #recaptcha_widget_div #recaptcha_area {
+		width: 320px !important;
+	}
+	.page-id-26458 .gform_button {
+		background-color: #ab2d28 !important;
+		color: #fff !important;
+		font-weight: bold;
+		letter-spacing: 3px;
+	}
+	
+	/* PRAISE FOR THE BOOK PAGE */
+	.page-id-26599 #main-bdwmc-content, .page-id-26609 #main-bdwmc-content{
+		background-position: none !important;
+		background-size: none !important;
+	}
+	.gfield_checkbox input[type="checkbox"] {
+		transform: scale(2,2);
+		margin-left: 10px;
+		height: 30px;
+	}
+	.gform_wrapper .gfield_checkbox li label{
+		line-height: 2.5;
+		margin: 0 0 0 40px;
+	}
+	
+}
+
+@media screen and (min-width: 769px) {
+	.container-fluid .row header .container nav a {
+		text-align: left;
+	}
+	
+	.events-list .events-list-item, .event-logo, .event-info, .event-info-button {
+		display: flex !important;		
+	}
+	
+	.event-info {
+		line-height: 40px !important;
+	}	
+	
+	.events-list {
+		padding: 35px 75px !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	/* #nav-upper {
+		width: 96%;
+	} */
+	
+	.container {
+		width: auto !important;
+		padding: 0;
+	}
+	
+	.container-fluid .row header .container nav a {
+		text-align: center;
+	}
+	
+	.events-list .events-list-item, .event-logo, .event-info, .event-info-button {
+		display: block !important;
+		text-align: center;
+	}
+	
+	.event-info {
+		line-height: 30px !important;
+	}
+	
+	.events-list {
+		padding: 35px 0 !important;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	#main-bdwmc-content {
+		height: 45%;
+	}
+	#main-bdwmc-content .pull-right {
+		width: 95%;
+		position: relative;
+		top: 230px;
+	}
+	#main-bdwmc-content .pull-right a img {
+		width: 240px !important;
+		height: 68px !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#branding {
+		margin-top: 20px;
+		padding: 0 0 0 30px;
+		width: 36%;
+	}
+	#nav-upper {
+		display: none;
+	}
+	.breadcrumbs-menu {
+		display: block !important;
+		float: right;
+		padding: 10px;
+		position: relative;
+		right: 50px;
+		top: 60px;
+	}
+	.breadcrumbs-menu button {
+		background: #ca1d13 none repeat scroll 0 0;
+		border-radius: 4px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 60px;
+		height: auto;
+		width: 80px;
+	}
+	.breadcrumbs-menu button:hover {
+		background: #db594a none repeat scroll 0 0;
+	}
+	#branding img {
+		height: auto;
+		width: 100%;
+	}
+	#nav-upper {
+		position: absolute;
+		top: 190px;
+		width: 100% !important;
+		z-index: 1;
+	}
+	#nav-upper li {
+		border-bottom: 1px solid #fff;
+		margin: 0 auto;
+		width: 100% !important;
+	}
+	#nav-upper li:last-child {
+		border-bottom: 0 none;
+	}
+	#nav-upper li a {
+		padding-bottom: none;
+	}
+	ul#nav-upper li:last-child a {
+		padding-top: none;
+	}
+	.active::before {
+		width: 0;
+		height: 0;
+		border-left: 35px solid transparent;
+		border-right: 35px solid transparent;
+		border-bottom: 40px solid /*#cd3826*/#ca1d13;
+		content: "";
+		float: right;
+		margin: -40px 64px 0 0;
+	}
+	/* PRAISE FOR THE BOOK PAGE */
+	.page-id-26599 #main-bdwmc-content{
+		background-image: none !important;
+		height: 6035px !important;	
+	}
+	.page-id-26609 #main-bdwmc-content {
+		background-image: none !important;
+		height: auto !important;
+	}
+	.page-id-26599 #main-bdwmc-content .pull-right, .page-id-26609 #main-bdwmc-content .pull-right {
+		padding: 10px;
+		width: 100%;
+	}
+	.page-id-26599 #main-bdwmc-content .pull-right div, .page-id-26609 #main-bdwmc-content .pull-right div {
+		width: 100% !important;
+	}
+	footer #nav li:last-child a {
+		padding-top: 15px;
+	}
+	footer #nav {
+		display: none;
+	}
+}
+
+@media (min-width: 576px) {
+	width: 540px;
+	pading-right: 15px;
+	padding-left: 15px;
+}
+
+@media screen and (max-width: 568px){
+	.breadcrumbs-menu {
+		right: 20px;
+		top: 20px;
+	}
+	#nav-upper {
+		top: 138px;
+	}
+	.active::before {
+		border-bottom: 30px solid /*#cd3826*/#ca1d13;
+		border-left: 30px solid transparent;
+		border-right: 30px solid transparent;
+		margin: -30px 38px 0 0;
+	}
+	#main-bdwmc-content {
+		height: 40%;
+	}
+	#main-bdwmc-content .pull-right {
+		padding: 12px;
+		position: relative;
+		top: 175px;
+		width: 100%;
+	}
+	.page-id-26609 #main-bdwmc-content .pull-right {
+		top: 0;
+	}
+	.pull-left {
+		width: 85%;
+	}
+	.checks {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 498px){
+	#about-stoney {
+		width: 93%;
+	}
+	#about-stoney a img {
+		width: 215px !important;
+		height: auto !important;
+	}
+	#gform_wrapper_9, .bdwmc-form-heading {
+		width: 93%;
+	}
+	.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type="submit"] {
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.breadcrumbs-menu {
+		top: 18px;
+	}
+	#nav-upper {
+		top: 121px;
+	}
+	.active::before {
+		border-bottom: 16px solid /*#cd3826*/#ca1d13;
+		border-left: 18px solid transparent;
+		border-right: 18px solid transparent;
+		margin: -16px 47px 0 0;
+	}
+}
+
+@media screen and (max-width: 414px){
+	.page-id-26599 #main-bdwmc-content {
+		height: 10615px !important;
+	}
+	.breadcrumbs-menu {
+		top: 7px;
+	}
+	#nav-upper {
+		top: 109px;
+	}
+	.active::before {
+		border-bottom: 16px solid /*#cd3826*/#ca1d13;
+		border-left: 18px solid transparent;
+		border-right: 18px solid transparent;
+		margin: -16px 47px 0 0;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	#branding {
+		width: 55%;
+	}
+	.breadcrumbs-menu {
+		right: 15px;
+		top: 40px;
+	}
+	.breadcrumbs-menu button {
+		font-size: 40px;
+		width: 55px;
+	}
+	#nav-upper {
+		top: 140px;
+	}
+	.active::before {
+		border-bottom: 35px solid /*#cd3826*/#ca1d13;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		margin: -35px 26px 0 0;
+	}
+	#main-bdwmc-wrapper {
+		height: 415px;
+	}
+	#main-bdwmc-content {
+		height: 51%;
+	}
+	.page-id-26002 #main-bdwmc-content .pull-right {
+		float: none;
+		padding: 0 10px;
+		position: relative;
+		top: 212px;
+		width: 100%;
+	}
+	.page-id-26599 #main-bdwmc-content .pull-right {
+		top: 0 !important;
+	}
+	#main-bdwmc-content .pull-right h1 {
+		font-size: 19px !important;
+	}
+	#main-bdwmc-content .pull-right p a.align-top {
+		float: right;
+	}
+	#sub-bdwmc .pull-left {
+		width: 100%;
+	}
+	#sub-bdwmc-content div:nth-child(8) {
+		margin-left: 0 !important;
+	}
+	.checks {
+		font-size: 15px;
+		width: 100%;
+	}
+	#about-stoney {
+		bottom: 110px;
+		margin: 0 auto;
+		position: relative;
+		width: 100%;
+	}
+	#bdwmc-form #gform_wrapper_9, .bdwmc-form-heading {
+		bottom: 70px;
+		margin: 0 auto;
+		position: relative;
+		width: 100%;
+	}
+	#bdwmc-form .gform_wrapper {
+		max-width: 100%;
+	}
+	#sub-bdwmc h2 {
+		width: 75%;
+	}
+	.privacy {
+		bottom: 15px;
+		padding-right: 0;
+		/*position: relative;*/
+		font-size: 25px;
+		text-align: center;
+	}
+	#nav {
+		width: 100%;
+	}
+	footer #nav li {
+		margin: 6px 0 0;
+		width: 100%;
+		bottom: 16px;
+		position: relative;
+	}
+	footer #nav li:first-child {
+		margin-left: 0 !important;
+	}
+	footer #nav li:last-child a {
+		padding-top: 35px !important;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.page-id-26599 #main-bdwmc-content {
+		height: 12315px !important;
+	}
+	.breadcrumbs-menu {
+		top: 30px;
+	}
+	#nav-upper {
+		top: 125px;
+	}
+	.active::before {
+		border-bottom: 30px solid /*#cd3826*/#ca1d13;
+		margin: -30px 26px 0 0;
+	}
+	#main-bdwmc-content {
+		height: 50%;
+	}
+	#main-bdwmc-wrapper {
+		height: 475px;
+	}
+	#main-bdwmc-content .pull-right {
+		top: 240px !important;
+	}
+	#main-bdwmc-content .pull-right a img {
+		width: 160px !important;
+		height: 46px !important;
+	}
+	#sub-bdwmc .pull-left h2{
+		padding-left: 20px !important;
+		padding-top: 26px !important;
+		width: 94%;
+	}
+	.checks {
+		font-size: 12px;
+	}
+	#container p {
+		margin-top: 0 auto;
+	}
+	
+	/* BOOK STONEY TO SPEAK PAGE */
+	.page-id-26458 #main-bdwmc-content p iframe {
+		height: 235px !important;
+	}
+	.page-id-26458 li#field_17_6{
+		text-align: left;
+	}
+	.page-id-26458 #recaptcha_area #recaptcha_table {
+		width: 268px !important;
+	}
+	.page-id-26458 .ginput_container input[type="text"], .ginput_container input[type="email"] {
+		width: 99% !important;
+	}
+	
+}
+
+
+/***************************************************  
+ 		Style changes/additions 11/9/17
+ 	Merge this with the existing stylesheet
+ 
+ ***************************************************/
+
+
+.stoney-banner h2 {
+	padding: 30px 0px !important;
+	background: none !important;
+}
+
+.stoney-banner {
+	background: url('https://www.polepositionmarketing.com/wp-content/uploads/2014/08/banner-best.png');
+	background-size: 100% 100px;
+	background-repeat: no-repeat;
+	text-align: center;
+	letter-spacing: 1px;
+	max-width: 1000px;
+	display: block;
+	margin: 0 auto;
+}
+
+.event-container {
+	padding: 20px 95px;
+}
+
+.event-container h3 {
+	font-size: 1.75em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.events-list {
+	padding: 35px 75px;
+	display: flex;
+	flex-direction: column;
+}
+
+.events-list h3 {
+	font-size: 1.75em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.events-list hr {
+	height: 12px;
+	margin: 12px 0 0 0;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.events-list img {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	margin-right: 25px;
+	box-shadow: 4px 4px 10px #aaa;
+}
+
+.events-list .events-list-item {
+	padding: 0 5px 5px 5px;
+	display: flex;
+	align-items: center;
+}
+
+.events-list .event-info {
+	display: flex;
+	flex-direction: column;
+	line-height: 40px;
+	/*height: 100px;*/
+	/*line-height: 100px;*/
+	padding: 0 10px;
+}
+
+.events-list .event-info em {
+	line-height: 20px;
+}
+
+.events-list span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 12px;
+}
+
+#sub-bdwmc .container .events-list .events-list-item .event-info-button a {
+	vertical-align: middle;
+	border-radius: 25px;
+	background: #ca1d13;
+	padding: 12px 22px;
+	color: #fff;
+	font-weight:700;
+	font-size: 1.1em;	
+	text-decoration: none;
+	vertical-align: middle;
+	line-height: 12px;
+}
+
+.event-title {
+	font-size: 1.2em;
+}
+
+.event-logo {
+	display: flex;
+	min-width: 175px;
+	margin: 10px auto;
+}
+
+.event-info-button {
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;	
+	margin: 10px auto;
+}
+
+.events-prev-container h3 {
+	margin: 0;
+}
+
+.past-events-list, .events-prev-list {
+	list-style-type: none;
+}
+
+.events-prev-container, .past-events-list {
+	padding: 35px 0;
+}
+
+.events-prev-list {
+	padding-top: 35px;
+}
+
+.past-events-list li, .events-prev-list li {
+	padding: 7px 15px;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.35);
+	border-top: 1px solid black;	
+}
+
+.past-events-list li:last-child, .events-prev-list li:last-child {
+	border-bottom: 1px solid black;
+}
+
+.event-btn {
+	border-radius: 25px;
+	/*background: #cc3826;*/
+	background: #ca1d13;
+	padding: 8px 12px;
+	color: white;
+	font-weight:700;
+	font-size: 1em;	
+	text-decoration: none;
+	outline: none;
+}
+
+.see-older {
+	width: 100%;
+	text-align: center;
+}
+
+.pull-right {
+	float: right;
+	padding-right: 20px;
+	width:53%;
+	text-align: left;
+}
+
+.pull-right p {
+	color: white;
+	width:95%;
+}
+
+.pull-left {
+	float: left;
+	margin-left: -20px;
+	width:39%;
+	text-align: left;
+	position:absolute;
+}
+
+.about {
+	height:500px;
+}
