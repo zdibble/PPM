@@ -1170,7 +1170,7 @@ input[type="submit"].gform_button {
 }
 /* line 82, ../scss/_header.scss */
 #primary_navigation li a {
-  color: #7b7b7b;
+  color: #545454;
   text-decoration: none;
   font-weight:600;
   padding: 2vw;
@@ -1181,7 +1181,7 @@ input[type="submit"].gform_button {
 /* line 90, ../scss/_header.scss */
 #primary_navigation li a:hover {
   /*background-color: #cd3301;*/
-  background-color: #ca1d13 !important;  
+  background-color: #000 !important;  
   color: whitesmoke;
 }
 
@@ -2723,8 +2723,10 @@ aside.widget-page-navigation ul.menu ul.sub-menu li.current-page-parent > a  {
     border: 2px solid #ca1d13 !important;
     color: #ffffff !important;
 }
-.entry-content ul li {
-    margin-bottom: 26px;
+.entry-content ul li, .entry-content ol li {
+	margin-bottom: 14px;
+    /*margin-bottom: 26px;*/
+    font-size: 1.1em;
 }
 
 body.noscroll {
