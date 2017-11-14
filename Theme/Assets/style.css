@@ -1180,9 +1180,12 @@ input[type="submit"].gform_button {
 }
 /* line 90, ../scss/_header.scss */
 #primary_navigation li a:hover {
-  /*background-color: #cd3301;*/
-  background-color: #000 !important;  
+  background-color: #ca1d13;    
   color: whitesmoke;
+}
+
+.shrink {
+	background-color: #000;
 }
 
 /* line 100, ../scss/_header.scss */
@@ -1244,6 +1247,7 @@ input#shrunk_search_term.open {
   text-align: center;
 }
 
+
 /* line 159, ../scss/_header.scss */
 form#searchform {
   float: right;
@@ -1301,7 +1305,12 @@ form#searchform button {
     z-index: 999;
     top: 0;
     height: 100px;
-  }
+  }  
+  
+	#primary_header.shrink .menu-item {
+	    background: none !important;
+	}
+  
   /* line 222, ../scss/_header.scss */
   #primary_header.shrink + #main {
     margin-top: 100px;
@@ -1363,7 +1372,7 @@ form#searchform button {
   }
   /* line 271, ../scss/_header.scss */
   #primary_header.shrink #lower_navigation a:hover {
-    background-color: #ca1d13;
+    background-color: #000;
   }
 }
 /***********************************************
@@ -3012,7 +3021,7 @@ margin: 1em 1em 1em 4em !important;
 }
 
 #lower_navigation #primary_navigation li {
-	font-weight: 
+	/*font-weight: missing*/ 
 }
 
 #choice_1_10_1 {
