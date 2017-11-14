@@ -1304,7 +1304,7 @@ form#searchform button {
     position: fixed;
     z-index: 999;
     top: 0;
-    height: 100px;
+    /*height: 100px;*/
   }  
   
 	#primary_header.shrink .menu-item {
@@ -1419,7 +1419,7 @@ form#searchform button {
     width: 100%;
     max-height: 80px;
     background-color: #151515;
-    background-image: url(http://poleposition.wpengine.com/wp-content/themes/poleposition/assets/img/tire-tread.jpg);
+    background-image: url(https://www.polepositionmarketing.com/wp-content/themes/poleposition/assets/img/tire-tread.jpg);
     background-repeat: repeat-x;
   }
 

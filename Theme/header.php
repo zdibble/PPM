@@ -25,7 +25,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-K2QPZHH');</script>
 <!-- End Google Tag Manager -->
-
+<script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "LocalBusiness",
+  "name": "Pole Position Marketing",
+  "url": "https://www.polepositionmarketing.com/",
+  "logo": "https://www.polepositionmarketing.com/wp-content/uploads/2012/03/logo-trim-500px.jpg",
+  "image": "https://www.polepositionmarketing.com/wp-content/uploads/2012/03/logo-trim-500px.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "9841 Cleveland Avenue NW",
+    "addressLocality": "Uniontown",
+    "addressRegion": "Ohio",
+    "postalCode": "44685",
+    "addressCountry": "United States"
+  },
+  "telephone": "+1(866) 685-3374"
+  }
+}
+ </script>
+ <?php 
+ function curPageURL() {
+     $isHTTPS = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on");
+     $port = (isset($_SERVER["SERVER_PORT"]) && ((!$isHTTPS && $_SERVER["SERVER_PORT"] != "80") || ($isHTTPS && $_SERVER["SERVER_PORT"] != "443")));
+     $port = ($port) ? ':'.$_SERVER["SERVER_PORT"] : '';
+     $url = ($isHTTPS ? 'https://' : 'http://').$_SERVER["SERVER_NAME"].$port.$_SERVER["REQUEST_URI"];
+     return $url;
+ }
+ ?>
+ <script type='application/ld+json'>
+{
+    "@context":"http:\/\/schema.org",
+    "@type":"Organization",
+    "url":"<?php echo curPageURL(); ?>",
+    "sameAs":["https:\/\/www.facebook.com\/PolePositionMarketing",
+    "https:\/\/www.linkedin.com\/company\/pole-position-marketing",
+    "https:\/\/plus.google.com\/115328371162070812900",
+    "https:\/\/www.youtube.com\/user\/PolePositionMKG",
+    "https:\/\/www.pinterest.com\/polepositionmkg\/",
+    "https:\/\/twitter.com\/polepositionmkg"],
+    "@id":"#organization",
+    "name":"Pole Position Marketing",
+    "logo":"https:\/\/www.polepositionmarketing.com\/wp-content\/uploads\/2012\/03\/logo-trim-500px.jpg"
+}
+</script>
 
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="author" content="Pole Position Marketing"/>
