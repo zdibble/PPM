@@ -148,7 +148,7 @@ get_header(); ?>
         <ul class="about-stoney-images">
           <li class="column col-4 t-12 accomplishment">
             <a href="https://www.polepositionmarketing.com/emp/author/stoneygd/">
-              <img class="service-icon animated fadeInUp" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/stoney-headshot-400h.jpg" alt="service icon">
+              <img class="service-icon animated fadeInUp" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/stoney-headshot-400h-11-17.jpg" alt="service icon">
             </a>
           </li>
           <li class="column col-4 t-12 accomplishment">
@@ -177,7 +177,7 @@ get_header(); ?>
         <ul class="row ppm-employees">
           <li class="employee column col-3 l-4 t-6 p-12">
             <a href="https://www.polepositionmarketing.com/about-us/pit-crew/stoney-degeyter/" >
-              <img src="https://www.polepositionmarketing.com/wp-content/uploads/2016/01/stoney-headshot.jpg" alt="icon">
+              <img src="https://www.polepositionmarketing.com/wp-content/uploads/2017/11/Stoney-Headshot-11-17.png" alt="icon">
               <p class="name">Stoney deGeyter</p>
               <p class="title">Founder & CEO</p>
             </a>
@@ -193,35 +193,35 @@ get_header(); ?>
 -->
           <li class="employee column col-3 l-4 t-6 p-12">
             <a href="https://www.polepositionmarketing.com/about-us/pit-crew/annalisa-hilliard/">
-              <img src="https://www.polepositionmarketing.com/wp-content/uploads/2016/01/Annalisa-headshot.jpg" alt="Employee">
+              <img src="https://www.polepositionmarketing.com/wp-content/uploads/2017/11/Annalisa-Headshot-11-17.png" alt="Employee">
               <p class="name">Annalisa Hilliard</p>
               <p class="title">Organic Search Presence Strategist</p>
             </a>
           </li>
           <li class="employee column col-3 l-4 t-6 p-12">
             <a href="https://www.polepositionmarketing.com/about-us/pit-crew/debbie-briggs/">
-              <img src="https://www.polepositionmarketing.com/wp-content/uploads/2016/01/deb-headshot.png" alt="Employee">
+              <img src="https://www.polepositionmarketing.com/wp-content/uploads/2017/11/Deb-Headshot-11-17.png" alt="Employee">
               <p class="name">Deb Briggs</p>
               <p class="title">Brand Content Strategist</p>
             </a>
           </li>
           <li class="employee column col-3 l-4 t-6 p-12">
             <a href="https://www.polepositionmarketing.com/about-us/pit-crew/kathy-gray/">
-              <img src="https://www.polepositionmarketing.com/wp-content/uploads/2016/01/kathy-headshot.png" alt="Employee">
+              <img src="https://www.polepositionmarketing.com/wp-content/uploads/2017/11/Kathy-Headshot-11-17.png" alt="Employee">
               <p class="name">Kathy Gray</p>
               <p class="title">Digital Marketing Project Manager</p>
             </a>
           </li>
           <li class="employee column col-3 l-4 t-6 p-12">
             <a href="https://www.polepositionmarketing.com/about-us/pit-crew/julie-graff-2/">
-              <img src="https://www.polepositionmarketing.com/wp-content/uploads/2016/04/julie-graff.png" alt="Employee">
+              <img src="https://www.polepositionmarketing.com/wp-content/uploads/2017/11/Julie-Headshot-11-17.png" alt="Employee">
               <p class="name">Julie Graff</p>
               <p class="title">Brand Engagement Strategist</p>
             </a>
           </li>
                               <li class="employee column col-3 l-4 t-6 p-12">
             <a href="https://www.polepositionmarketing.com/about-us/pit-crew/alan-waggoner/">
-              <img src="https://www.polepositionmarketing.com/wp-content/uploads/2016/05/Alan-Headshot.png" alt="Employee">
+              <img src="https://www.polepositionmarketing.com/wp-content/uploads/2017/11/Alan-Headshot-11-17.png" alt="Employee">
               <p class="name">Alan Waggoner</p>
               <p class="title">Paid Advertising Strategist</p>
             </a>
