@@ -148,7 +148,7 @@ get_header(); ?>
         <ul class="about-stoney-images">
           <li class="column col-4 t-12 accomplishment">
             <a href="https://www.polepositionmarketing.com/emp/author/stoneygd/">
-              <img class="service-icon animated fadeInUp" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/stoney-headshot-400h-11-17.jpg" alt="service icon">
+              <img class="service-icon animated fadeInUp" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/stoney-headshot-400h-11-17.png" alt="service icon">
             </a>
           </li>
           <li class="column col-4 t-12 accomplishment">
@@ -158,7 +158,7 @@ get_header(); ?>
           </li>
           <li class="column col-4 t-12 accomplishment">
             <a href="https://www.polepositionmarketing.com/digital-marketing-learning-library/ebooks/best-damn-web-marketing-checklist/" target="_blank">
-              <img class="service-icon animated fadeInUp" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/bdwmc-book.jpg" alt="service icon">
+              <img class="service-icon animated fadeInUp" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/bdwmc-book-offwhite-11-17.jpg" alt="service icon">
             </a>
           </li>
         </ul>
